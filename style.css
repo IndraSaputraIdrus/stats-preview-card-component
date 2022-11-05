@@ -42,6 +42,8 @@ img {
     background-color: var(--dark-desaturated-blue);
     border-radius: 0.5rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .card__body {
@@ -99,16 +101,14 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: hsla(276.8, 96.4%, 21.6%, 0.55);;
+    background-color: hsla(276.8, 96.4%, 21.6%, 0.55);
     opacity: 0.8;
 }
-
 
 /*Responsive */
 @media (min-width: 1024px) {
     .card {
         max-width: 1024px;
-        display: flex;
         flex-direction: row-reverse;
     }
 
